@@ -35,7 +35,7 @@ The API exposes the following routes:
 ```bash
 git clone https://github.com/gb270/blockchain-poc.git
 cd blockchain-poc
-
+```
 
 ### 2. Create a virtual environment
 
@@ -44,6 +44,7 @@ It is highly recommended to use a virtual environment to manage dependencies. Fo
 ```bash
 python3 -m venv venv
 source venv/bin/activate # On Windows, use `venv\Scripts\activate`
+```
 
 ### 3. Install Dependencies
 
@@ -51,17 +52,21 @@ Install the required Python packages:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ### 4. Run the Flask API
 
 ```bash
 python main.py
+```
 
 ### 5. Run the tests
 
 Whilst your flask server is running, from another terminal run:
 
-``` python -m tests.api_tests
+```bash
+python -m tests.api_tests
+```
 
 You can also test the API by just sending a request directly to the endpoint.
 
