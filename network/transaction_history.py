@@ -9,7 +9,10 @@ class TransactionHistory:
         self.transaction_history = transaction_history
 
     def get_transaction(self, transaction_id: str) -> dict:
-        return self.transaction_history[transaction_id]
+        if transaction_id in self.transaction_history.keys():
+            return self.transaction_history[transaction_id]
+        else:
+            return f"{transaction_id} does not exist."
     
     def get_transaction_history(self) -> dict:
         return self.transaction_history
