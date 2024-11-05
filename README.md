@@ -39,7 +39,7 @@ cd blockchain-poc
 
 ### 2. Create a virtual environment
 
-It is highly recommended to use a virtual environment to manage dependencies. For more info on virtual environments, I highly recommend this [link](https://realpython.com/python-virtual-environments-a-primer/).
+It is highly recommended to use a virtual environment to manage dependencies. For more info on virtual environments, I highly recommend this [blog post](https://realpython.com/python-virtual-environments-a-primer/).
 
 ```bash
 python3 -m venv venv
