@@ -43,6 +43,6 @@ def setup_routes():
         # need way of inputting then users blockchain so they can see
         # all the transactions that they don't have.
 
-        return jsonify({'message': 'blockchain returned successfully', 'blockchain': blockchain_instance.get_transaction_pool()}), 200
+        return jsonify({'message': 'transaction pool returned successfully', 'transaction_pool': blockchain_instance.get_transaction_pool()}), 200
 
     return app

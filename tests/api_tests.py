@@ -42,7 +42,12 @@ def test_api():
     mine_block()
     get_full_chain()
 
-
+    create_transaction('Alice', 'Bob', 10.0)
+    create_transaction('Charlie', 'David', 15.5)
+    create_transaction('Larry', 'Tommy', 52.1)
+    create_transaction('Alice', 'Charlie', 10.0)
+    create_transaction('David', 'Bob', 100.0)
+    get_transaction_pool()
 
 
 if __name__ == "__main__":
