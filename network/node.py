@@ -29,14 +29,5 @@ In order to ensure integrity, nodes reject invalid chains and they only accept
 the longest chain rule (for now, this strategy is suceptible to 51% attack
 so we may explore other options in the future.)
 
-We will start off by creatiing some API functionality so that we can 
-interact with the routes
-
 """
 
-from api.routes import setup_routes
-
-app = setup_routes()
-
-if __name__ == "__main__":
-    app.run()
